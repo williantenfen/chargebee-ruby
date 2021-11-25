@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = '1.3.5'
   s.required_ruby_version = '>= 1.9.3'
   s.name              = 'chargebee'
-  s.version           = '2.8.8'
+  s.version           = '2.8.8.1'
   s.date              = '2021-07-22'
 
   s.summary     = "Ruby client for Chargebee API."
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency('json_pure', '~> 2.1')
   s.add_dependency('rest-client', '>=1.8', '<=2.0.2')
-  s.add_dependency('cgi', '<=0.1.0')
+  s.add_dependency('cgi', '~>0.1.0')
 
   s.add_development_dependency('rspec', '~> 3.0.0')
   s.add_development_dependency('mocha')
